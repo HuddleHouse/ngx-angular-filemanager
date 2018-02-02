@@ -32,8 +32,4 @@ export class AppModule {
   ) {
     this.upgrade.bootstrap(document.body, ['FileManagerApp']);
   }
-  // ngDoBootstrap() { }
-  ngDoBootstrap() {
-    // this.upgrade.bootstrap(document.body, ['FileManagerApp']);
-  }
 }
